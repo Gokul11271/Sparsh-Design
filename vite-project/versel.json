@@ -1,5 +1,16 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "framework": "vite"
+  "name": "versal-project",
+  "version": "1.0.0",
+  "description": "Configuration for Versal deployment",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "versal": {
+    "buildCommand": "vite build",
+    "outputDirectory": "dist",
+    "framework": "vite"
+  }
 }
